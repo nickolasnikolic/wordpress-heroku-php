@@ -1,0 +1,95 @@
+body {
+  background-color: rgba(0, 0, 0, 0.75); }
+
+a {
+  color: rgba(232, 26, 96, 0.5); }
+  a:hover, a:focus {
+    color: rgba(255, 51, 41, 0.5); }
+
+blockquote cite {
+  color: rgba(51, 51, 51, 0.8); }
+
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.comment-reply-link {
+  background-color: #2E2E2E;
+  color: #FFF; }
+  .btn:hover,
+  input[type="button"]:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover,
+  .comment-reply-link:hover {
+    background: #222;
+    color: #FFF;
+    text-decoration: none; }
+
+#navigation a {
+  color: rgba(255, 255, 255, 0.5); }
+#navigation a:hover,
+#navigation .sfHover > a {
+  color: #FFF; }
+#navigation > li > a:hover,
+#navigation > li.sfHover > a,
+#navigation > li.sfHover > a:active,
+#navigation > li.current_page_item > a,
+#navigation > li.current-menu-item > a,
+#navigation > li.current-menu-ancestor > a,
+#navigation > li.current-menu-parent > a,
+#navigation > li.current > a {
+  color: #FFF; }
+#navigation ul {
+  background-color: #fff; }
+
+.header {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #fff; }
+
+.pre-head {
+  border-bottom: 1px solid rgba(179, 179, 179, 0.5); }
+
+.site-tagline {
+  border-left: 1px solid rgba(179, 179, 179, 0.5); }
+
+.home-slider-container {
+  background-color: #fff; }
+
+.home-slider {
+  background-color: rgba(0, 0, 0, 0.15); }
+
+.slide-content {
+  color: rgba(255, 255, 255, 0.5);
+  background: #fff; }
+  .slide-content p {
+    color: rgba(255, 255, 255, 0.7); }
+
+.slide-title a, .slide-title a:hover {
+  color: #FFF; }
+
+.section-title:after,
+.widget-title:after {
+  border-bottom: 4px double #e8e8e8; }
+  .footer .section-title:after, .footer
+  .widget-title:after {
+    border-bottom: 4px double rgba(255, 255, 255, 0.2); }
+
+#paging {
+  margin: 0 0 35px; }
+  #paging a, #paging > span {
+    background-color: #fff;
+    color: #fff; }
+  #paging span.current, #paging a:hover {
+    background-color: #cccccc; }
+
+.footer {
+  background-color: #fff;
+  color: #f2f2f2; }
+  .footer a {
+    color: #FFF; }
+    .footer a:hover {
+      color: #FFF; }
+
+/*# sourceMappingURL=base.css.map */

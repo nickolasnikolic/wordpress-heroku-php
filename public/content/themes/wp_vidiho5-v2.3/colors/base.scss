@@ -1,0 +1,135 @@
+@import "../css/_inc/variables.scss";
+
+body {
+	background-color: rgba(0,0,0,0.75);
+}
+
+a {
+	color: $primary-color;
+
+	&:hover,
+	&:focus {
+		color: $secondary-color;
+	}
+}
+
+blockquote {
+	cite {
+		color: rgba($text-color, 0.8);
+	}
+}
+
+.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.comment-reply-link {
+	background-color: #2E2E2E;
+	color: #FFF;
+
+	&:hover {
+		background: #222;
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+
+#navigation {
+	a {
+		color: $text-on-dark;
+	}
+
+	a:hover,
+	.sfHover > a {
+		color: #FFF;
+	}
+
+	> li > a:hover,
+	> li.sfHover > a,
+	> li.sfHover > a:active,
+	> li.current_page_item > a,
+	> li.current-menu-item > a,
+	> li.current-menu-ancestor > a,
+	> li.current-menu-parent > a,
+	> li.current > a {
+		color: #FFF;
+	}
+
+	ul {
+		background-color: $background-color;
+	}
+}
+
+.header {
+	color: $text-on-dark;
+	background-color: $background-color;
+}
+
+.pre-head {
+	border-bottom: 1px solid darken($text-on-dark, 30%);
+}
+
+.site-tagline {
+	border-left: 1px solid darken($text-on-dark, 30%);
+}
+
+.home-slider-container {
+	background-color: $background-color;
+}
+
+.home-slider {
+	background-color: rgba(0,0,0,0.15);
+}
+
+.slide-content {
+	color: $text-on-dark;
+	background: $background-color;
+
+	p {
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+.slide-title {
+	a, a:hover {
+		color: #FFF;
+	}
+}
+
+.section-title,
+.widget-title {
+	&:after {
+		border-bottom: 4px double #e8e8e8;
+
+		.footer & {
+			border-bottom: 4px double rgba(255,255,255,0.2);
+		}
+	}
+}
+
+#paging {
+	margin: 0 0 35px;
+	a, > span {
+		background-color: $background-color;
+		color: #fff;
+	}
+
+	span.current, a:hover {
+		background-color: darken($background-color, 20%);
+	}
+}
+
+.footer {
+	background-color: $background-color;
+	color: #f2f2f2;
+
+	a {
+		color: #FFF;
+
+		&:hover {
+			color: #FFF;
+		}
+	}
+}
+

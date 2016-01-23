@@ -1,0 +1,63 @@
+/* -----------------------------------------
+	03. Header
+----------------------------------------- */
+
+.header {
+	color: $text-on-dark;
+	background-color: $background-color;
+}
+
+.header-wrap {
+	padding: 20px 25px 15px;
+	background-color: rgba(0,0,0,0.15);
+}
+
+.pre-head {
+	@include clearfix();
+	border-bottom: 1px solid darken($text-on-dark, 30%);
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.header-socials {
+	padding-top: 5px;
+
+	.widget-title {
+		display: none;
+	}
+
+	.widget {
+		margin: 0;
+		text-align: right;
+	}
+}
+
+.site-logo {
+	margin: 0;
+	line-height: normal;
+	
+	a, a:hover {
+		color: #FFF;
+		font-size: 26px;
+		font-weight: 900;
+		letter-spacing: -1px;
+		margin: 0;
+		float: left;
+	}
+}
+
+.site-tagline {
+	font-size: 10px;
+	text-transform: uppercase;
+	float: left;
+	width: 150px;
+	font-family: Lora, Georgia, serif;
+	margin: 2px 0 0 0;
+	color: #939393;
+	letter-spacing: 0.03em;
+	line-height: normal;
+	margin-top: 6px;
+	border-left: 1px solid darken($text-on-dark, 30%);
+	padding-left: 15px;
+	margin-left: 15px;
+}

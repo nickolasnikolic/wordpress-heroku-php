@@ -14,7 +14,7 @@ This will set up a fresh WordPress install on Heroku with the newly released [He
 
 Use the Deploy to Heroku button, or use the old fashioned way described below.
 
-<a href="https://heroku.com/deploy?template=https://github.com/ellefsen/wordpress-heroku-php/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/nickolasnikolic/wordpress-heroku-php/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
 </a>
 

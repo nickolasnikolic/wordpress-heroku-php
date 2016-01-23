@@ -1,0 +1,150 @@
+/* -----------------------------------------
+	11. Global Mediaqueries
+----------------------------------------- */
+
+@media ( max-width: $screen-md-max ) {
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.row {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	.home-slider-container,
+	.home-slider iframe {
+		height: 500px;
+	}
+
+
+}
+
+@media ( max-width: $screen-sm-max ) {
+	.home-slider-container,
+	.home-slider iframe {
+		height: 377px;
+	}
+	.main.home {
+		padding-top: 230px;
+	}
+}
+
+
+@media ( max-width: $screen-xs-max ) {
+	#page {
+		padding-top: 48px; /* For mobile bar */
+	}
+
+	#nav {
+		display: none;
+	}
+
+	.pre-head {
+		margin-bottom: 5px;
+	}
+
+	.site-logo {
+		float: none;
+		display: block;
+		text-align: center;
+
+		a {
+			float: none;
+		}
+	}
+
+	.site-tagline {
+		float: none;
+		margin: 0;
+		padding: 0;
+		border: none !important;
+		width: auto;
+		text-align: center;
+	}
+
+	.header-socials {
+		padding-top: 10px;
+		.widget {
+			text-align: center;
+		}
+	}
+
+	.home-slider-container {
+		height: auto;
+	}
+
+	.slide-hold {
+		width: 100%;
+		position: relative;
+		padding:0;
+		padding-top: 56.2064156206416%;
+	}
+
+	.home-slider iframe,
+	.slide-hold img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.home-slider {
+		padding: 0;
+	}
+
+	.main.home {
+		padding-top: 35px;
+	}
+
+	.slide-content {
+		margin: 0;
+		border: 0;
+		position: static;
+
+		p {
+			font-size: 14px;
+		}
+	}
+
+	.flex-direction-nav a.flex-prev {
+		bottom: 15px;
+		left: 10px !important;
+	}
+
+	.flex-direction-nav a.flex-next {
+		bottom: 15px;
+		right: 10px !important;
+	}
+
+	.secondary-slider {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.main {
+		margin: 0 -15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.footer-inner {
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+
+		.widget {
+			margin: 0 0 40px;
+		}
+	}
+
+	.copy {
+		text-align: center;
+		.text-right {
+			text-align: center;
+			margin: -5px 0 15px;
+		}
+	}
+}

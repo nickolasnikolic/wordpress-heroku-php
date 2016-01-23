@@ -1,0 +1,226 @@
+/* -----------------------------------------
+	07. Widgets Styling
+----------------------------------------- */
+
+.widget {
+	margin: 0 0 45px;
+
+	&:last-child {
+		margin: 0;
+	}
+}
+
+.sidebar .widget:last-child,
+.widget p:last-child { /* Nullify bottom margin for last elements in widgets and sidebars */
+	margin-bottom: 0;
+}
+
+.widget-title {
+ @extend .section-title;
+}
+
+/* WIDGET: #List Widgets
+========================================= */
+
+.widget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.widget ul li {
+	padding: 5px 0;
+	border-bottom: 1px dotted rgba(0,0,0,0.1);
+	display: block;
+	margin: 0;
+}
+
+.widget ul ul.children li:first-child {
+	border-top: 1px dotted rgba(0,0,0,0.1);
+	margin-top: 6px;
+}
+
+.widget ul li:last-of-type {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+.widget ul.children li {
+}
+
+.widget ul.children li {
+	padding-left: 15px;
+}
+
+.widget .current-cat > a,
+.widget .current-cat-parent > a {
+	font-weight: bold;
+}
+/* WIDGET: #Ads125
+========================================= */
+
+#ads125,
+.ads125 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		background: none;
+		border: none;
+		float: left;
+		margin: 0 15px 10px 0;
+		padding: 0;
+		max-width: 125px;
+		height: auto;
+	}
+}
+
+/* WIDGET: #Search
+========================================= */
+
+.searchform {
+	> div {
+		position: relative;
+	}
+
+	input[type="text"],
+	input[type="search"] {
+		// Styling for the search input if required
+	}
+
+	.searchsubmit {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+	}
+}
+
+/* WIDGET: #Flickr
+========================================= */
+
+.flickr_badge_image {
+	float: left;
+	margin: 0 15px 15px 0;
+	border: 5px solid #F2F2F2;
+
+	.footer & {
+		border: 5px solid #5E5E5E;
+	}
+
+	a {
+		display: block;
+		line-height: 0;
+	}
+}
+
+/* WIDGET: #About
+========================================= */
+
+.widget_about {
+	margin-top: -5px;
+
+	img {
+		max-width: 100px;
+		height: auto;
+	}
+
+	.alignleft {
+		float: left;
+		margin: 5px 15px 6px 0;
+	}
+
+	.alignright {
+		float: right;
+		margin: 5px 0 6px 15px;
+	}
+}
+
+/* WIDGET: #Text Widget
+========================================= */
+
+.widget_text p:last-child {
+	margin-bottom: 0;
+}
+
+/* WIDGET: #Twitter
+========================================= */
+
+.widget_ci_twitter_widget {
+	ul {
+		li {
+			margin-bottom: 12px;
+		}
+
+		li:first-child {
+			padding-top: 0;
+		}
+	}
+
+	.twitter-time {
+		display: block;
+		font-size: 0.85em;
+	}
+}
+
+/* WIDGET: #Calendar
+================================================== */
+
+#wp-calendar {
+	width: 100%;
+
+	a {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	caption {
+		text-align: left;
+		margin-top: 10px;
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.03);
+		padding: 9px;
+	}
+
+	thead {
+		font-size: 10px;
+
+		th {
+			background: rgba(0, 0, 0, 0.1);
+			font-weight: bold;
+			padding: 8px;
+		}
+	}
+
+	tbody {
+		td { background: none; border: 1px solid rgba(0, 0, 0, 0.1); text-align: center; padding: 3px;}
+		td:hover { background: rgba(0, 0, 0, 0.1); }
+		.pad { background: none; }
+	}
+
+	tfoot {
+		#next { font-size: 10px; text-transform: uppercase; text-align: right; }
+		#prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+	}
+}
+
+/* WIDGET: #Social Icons (HTML only)
+========================================= */
+
+.social-icon i {
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #333;
+	color: #FFF;
+	border: 1px solid #333;
+	font-size: 24px;
+	border-radius: 36px;
+	text-align: center;
+	display: inline-block;
+}
+
+.social-icon:hover i {
+	background-color: #575757;
+}
